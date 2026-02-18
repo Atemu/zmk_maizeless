@@ -8,7 +8,7 @@ config LED_PWM
 
 endif # ZMK_BACKLIGHT
 
-if SHIELD_MAIZELESS_LEFT
+if SHIELD_MAIZELESS_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Maizeless"
