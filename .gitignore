@@ -1,2 +1,9 @@
+# From zmk-nix
+/.west
+/modules
+/zephyr
+/zmk
+/build
+
 keymap_drawer.yaml
 *keymap.mine.*
