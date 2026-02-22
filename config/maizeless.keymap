@@ -44,7 +44,7 @@
 // |     |     |     |     |     |     |   |     |     |     |     |     |     |
 //                   |     |     |     |   |     |     |     |
                         bindings = <
-   &FLASH   &kp N1   &kp N2     &kp N3    &kp N4   &trans     &trans &trans &trans &trans &trans &trans
+   &FLASH   &kp N1   &kp N2     &kp N3    &kp N4   &kp N5     &trans &trans &trans &trans &trans &trans
    &kp LGUI &kp LALT &kp LSHIFT &kp LCTRL &kp LLS4 &kp LLS3   &trans &trans &trans &trans &trans &trans
    &trans   &trans   &trans     &trans    &trans   &trans     &trans &trans &trans &trans &trans &trans
                                 &trans    &trans   &trans     &trans &trans &trans
