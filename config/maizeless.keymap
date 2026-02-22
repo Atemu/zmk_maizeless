@@ -31,10 +31,10 @@
 // |     |  Z  |  X  |  C  |  V  |  B  |   |  F  |  M  |  ,  |  .  |  ẞ  |     |
 //                   | UPL | SPC |     |   |     | SPC | UPR |
                         bindings = <
-   &kp TAB &kp Q &kp W &kp E  &kp R &kp T     &kp Y  &kp U   &kp I     &kp O   &kp P    &kp DUE
-   &kp ESC &kp A &kp S &kp D  &kp F &kp G     &kp H  &kp J   &kp K     &kp L   &kp DOE  &kp DAE
-   &trans  &kp Z &kp X &kp C  &kp V &kp B     &kp N  &kp M   &kp COMMA &kp DOT &kp DSZ  &trans
-                       &trans &mo 1 &kp SPC   &kp SPC &mo 2 &trans
+   &kp TAB &kp Q &kp W &kp E &kp R   &kp T    &kp Y  &kp U   &kp I     &kp O   &kp P    &kp DUE
+   &kp ESC &kp A &kp S &kp D &kp F   &kp G    &kp H  &kp J   &kp K     &kp L   &kp DOE  &kp DAE
+   &trans  &kp Z &kp X &kp C &kp V   &kp B    &kp N  &kp M   &kp COMMA &kp DOT &kp DSZ  &trans
+                       &mo 1 &kp SPC &trans   &trans &kp SPC &mo 2
                         >;
                 };
                 up_left {
