@@ -13,7 +13,7 @@
 #define LLS4 NON_US_BACKSLASH // Neo Layer 4 switch
 #define RLS4 RIGHT_ALT // Neo Layer 4 switch
 
-#define DSZ MINUS
+#define DSZ SLASH
 #define DAE SINGLE_QUOTE
 #define DOE SEMICOLON
 #define DUE LEFT_BRACKET
