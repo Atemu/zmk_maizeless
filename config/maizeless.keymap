@@ -19,6 +19,7 @@
 #define DUE LEFT_BRACKET
 
 #define FLASH bootloader
+#define RESET sys_reset
 
 / {
         keymap {
@@ -68,12 +69,12 @@
                 control_left {
 // -----------------------------------------------------------------------------------------
 // | FLSH |     |     |     |     |     |   |     |     |     |     |     |     |
-// |      |     |     |     |     |     |   |     |     |     |     |     |     |
+// | RST  |     |     |     |     |     |   |     |     |     |     |     |     |
 // |      |     |     |     |     |     |   |     |     |     |     |     |     |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
    &FLASH &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+   &RESET &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
                         &trans &trans &trans   &trans &trans &trans
                         >;
@@ -82,12 +83,12 @@
                 control_right {
 // -----------------------------------------------------------------------------------------
 // |     |     |     |     |     |     |   |     |     |     |     |     | FLSH |
-// |     |     |     |     |     |     |   |     |     |     |     |     |      |
+// |     |     |     |     |     |     |   |     |     |     |     |     | RST  |
 // |     |     |     |     |     |     |   |     |     |     |     |     |      |
 //                   |     |     |     |   |     |     |     |
                         bindings = <
    &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &FLASH
-   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &RESET
    &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
                         &trans &trans &trans   &trans &trans &trans
                         >;
