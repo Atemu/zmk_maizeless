@@ -29,15 +29,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1770512494,
-        "narHash": "sha256-htjHKg4a1YCfj2hAezmb2kHrKr5S9lj6mRqYDpc6ziw=",
-        "owner": "lilyinstarlight",
+        "lastModified": 1771987804,
+        "narHash": "sha256-Ahx04I356B52Jnj/Erh4Ow0F7HBAxwXyKHv1n5VKeMw=",
+        "owner": "Atemu",
         "repo": "zmk-nix",
-        "rev": "9cbc713369bb9fad7baefd54d95001b0cbcef189",
+        "rev": "ac1bd26fdc87f86832f8a1eb0db26f24d10a54a9",
         "type": "github"
       },
       "original": {
-        "owner": "lilyinstarlight",
+        "owner": "Atemu",
+        "ref": "udisks",
         "repo": "zmk-nix",
         "type": "github"
       }
